@@ -1,10 +1,7 @@
 import React, { useState } from 'react';
-
 import { TouchableOpacity, View, Text } from 'react-native';
-
 import CampoInteiro from '../../../componentes/CampoInteiro';
 import Botao from '../../../componentes/Botao';
-
 import estilos from './estilos';
 
 export default function Item({nome, preco, descricao}) {
